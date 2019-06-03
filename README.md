@@ -4,7 +4,7 @@ In this study, we collect our own dataset and used 24 different gestures. Images
 
 <p align="center">
   <img src="right.png" width="550" title="screen" align="center">  
-<\p>
+</p>
   
 The above picture shows the right part of the system. We display the segmented hand in res window, some information in detailed window and 
 some controller in information window to control the upper and lower RGB values according to light in th environment. To change the 
