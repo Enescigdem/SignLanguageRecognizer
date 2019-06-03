@@ -9,7 +9,10 @@ some controller in information window to control the upper and lower RGB values 
 lower and upper RGB values, the OF...ON should be switched to 1. 
 
 Additionally, while system is running, 
-Markup : * If "b" is pressed from keyboard, the binary segmented form of the frame is shown in the res window.
+<br>
+ * If "b" is pressed from keyboard, the binary segmented form of the frame is shown in the res window.
+<br>
          * If "c" is pressed from keyboard, the segmented form of the frame is shown in the res window(it is also default).
+         <br>
          * If "s" is pressed from keyboard, the segmented form of the frame which is converted to grayscale is saved.
 
