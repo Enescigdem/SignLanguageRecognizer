@@ -13,6 +13,7 @@ lower and upper RGB values, the OF...ON should be switched to 1.
 Additionally, while system is running, 
 <br> 
 * If "b" is pressed from keyboard, the binary segmented form of the frame is shown in the res window.
-* If "c" is pressed from keyboard, the segmented form of the frame is shown in the res window(it is also default).      
+* If "c" is pressed from keyboard, the segmented form of the frame is shown in the res window(it is also default).     
+* If "h" is pressed from keyboard, the the extracted features using hog of the frame is shown in the res window.
 * If "s" is pressed from keyboard, the segmented form of the frame which is converted to grayscale is saved.
 
