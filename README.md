@@ -17,3 +17,6 @@ Additionally, while system is running,
 * If "h" is pressed from keyboard, the the extracted features using hog of the frame is shown in the res window.
 * If "s" is pressed from keyboard, the segmented form of the frame which is converted to grayscale is saved.
 
+Medium blog:
+https://medium.com/@aybukeyalcinerr/realtime-recognition-of-american-sign-language-alphabet-8ece006d424e?postPublishedType=repub
+
