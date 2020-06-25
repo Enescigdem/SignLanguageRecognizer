@@ -2,6 +2,7 @@ In this study, we collect our own dataset and used 24 different gestures. Images
 360 validation and 360 test data. We prefer to use pretrained VGG model as classifier. After we train the model, we come up with about 
 %99 accuracy on test data.
 
+Data set Link : https://drive.google.com/drive/folders/1JibNxxc20FtJGesKrjrh9jrAL9B1aip_?usp=sharing <br>
 <p align="center">
   <img src="right.png" width="550" title="screen" align="center">  
 </p>
