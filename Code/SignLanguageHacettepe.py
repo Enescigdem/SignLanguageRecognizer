@@ -61,7 +61,7 @@ class SignLanguageRecognizer:
         user32.SetProcessDPIAware()
         width, height = user32.GetSystemMetrics(0), user32.GetSystemMetrics(1)
 
-
+        #####System GUI creation    #####
         """Create Windows"""
         cv2.namedWindow('frame', cv2.WINDOW_AUTOSIZE)
         cv2.moveWindow('frame', 0, 10)
@@ -71,9 +71,6 @@ class SignLanguageRecognizer:
         cv2.moveWindow('information', int(width / 2), int(height / 3 + height / 4 - 22))
         cv2.namedWindow('detailed', cv2.WINDOW_AUTOSIZE)
         cv2.moveWindow('detailed', int(width / 2), int(height / 3))
-
-
-
         """Create trackbars for color change"""
         cv2.createTrackbar('LowerR', 'information', 0, 255, nothing)
         cv2.createTrackbar('LowerG', 'information', 50, 255, nothing)
@@ -85,8 +82,6 @@ class SignLanguageRecognizer:
         """Create switch for ON/OFF functionality"""
         switch = '0 : OFF \n1 : ON'
         cv2.createTrackbar(switch, 'information', 0, 1, nothing)
-
-
 
         """define range of red color in HSV (red is [180, 0, 0])"""
         lower_red = np.array([0, 50, 50])
