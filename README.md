@@ -1,4 +1,4 @@
-Data set Link : https://drive.google.com/drive/folders/1JibNxxc20FtJGesKrjrh9jrAL9B1aip_?usp=sharing <br>
+Data set Link : https://drive.google.com/drive/folders/1ZjWD4T7eCj4FPh-cIasz-5qh4S87JSAq?usp=sharing <br>
 
 In this study, we collect our own dataset and used 24 different gestures. Images are taken from 2 people and there are 1560 train data,
 360 validation and 360 test data. We prefer to use pretrained VGG model as classifier. After we train the model, we come up with about 
